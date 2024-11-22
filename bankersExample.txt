@@ -1,0 +1,2 @@
+The system is in a Safe State.
+The Safe Sequence for the processes is: P1 - P3 - P0 - P2 - P4
