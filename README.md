@@ -6,4 +6,4 @@ There are two files used in this program: "bankers.cpp" and "data.txt". The .cpp
 An example output for this program can be seen in the text file 'bankerExample.txt' in this repository!
 
 # Running The Code
-To run the code, simply copy "bankers.cpp" into any appropriate Linux/Unix environment to run the C++ code and add data.txt as a resource file of this code. From there, the program will run on the terminal and show the given output based on the data file!
+To run the code, simply copy "bankers.cpp" into any appropriate Linux/Unix environment to run the C++ code and add data.txt as a resource file of this code in the same directory. From there, the program will run on the terminal and show the given output based on the data file!
