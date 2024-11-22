@@ -121,7 +121,7 @@ int main() {
 
     string line;
 
-    // Reads in the number of Processes and Resources, expecting them as the first two numbers in the file.
+    // Reads in the number of Processes and Resources (The first two numbers in the file).
     getline(input, line);
     istringstream iss(line);
     iss >> processes >> resources;
@@ -131,7 +131,7 @@ int main() {
     maxTable.resize(processes, vector<int>(resources));
     availableTable.resize(resources);
 
-    // Reads data file & Takes input for the Allocation Table.
+    // Reads data file & Takes input for the Allocation Table (The next five lines of numbers in the file).
     for (int i = 0; i < processes; i++) {
         getline(input, line);
         istringstream iss(line);
@@ -139,7 +139,7 @@ int main() {
             iss >> allocationTable[i][j];
         }
     }
-    // Reads data file & Takes input for the Max Resources Table.
+    // Reads data file & Takes input for the Max Resources Table (The following five lines of numbers after the Allocation Table).
     for (int i = 0; i < processes; i++) {
         getline(input, line);
         istringstream iss(line);
@@ -147,7 +147,7 @@ int main() {
             iss >> maxTable[i][j];
         }
     }
-    // Reads data file & Takes input for the Available Resources Table.
+    // Reads data file & Takes input for the Available Resources Table (The last line of numbers in the file).
     getline(input, line);
     istringstream issAvailable(line);
     for (int j = 0; j < resources; j++) {
