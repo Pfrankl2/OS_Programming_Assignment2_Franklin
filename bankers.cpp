@@ -78,7 +78,7 @@ bool isSafeSequence(vector<vector<int>>& allocationTable, vector<vector<int>>& n
             }
         }
         if (!found) { // If an allocation could not be found for a process:
-            cout << "The system is not in a safe state." << endl;
+            cout << "The system is not in a Safe State." << endl;
             return false;
         }
     }
