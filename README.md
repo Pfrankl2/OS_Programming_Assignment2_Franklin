@@ -6,4 +6,10 @@ There are two files used in this program: "bankers.cpp" and "data.txt". The .cpp
 An example output for this program can be seen in the text file 'bankerExample.txt' in this repository!
 
 # Running The Code
-To run the code, simply copy "bankers.cpp" into any appropriate Linux/Unix environment to run the C++ code and add data.txt as a resource file of this code in the same directory. From there, the program will run on the terminal and show the given output based on the data file!
+To run the code, copy "bankers.cpp" into any appropriate Linux/Unix directory and add "data.txt" as a text file in the same directory. From there, you can compile bankers.cpp with the following command:
+
+        g++ -o bankers bankers.cpp
+
+From here, the created object file can be run with the following command right afterwards:
+
+        ./bankers
